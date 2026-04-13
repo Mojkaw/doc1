@@ -24,4 +24,6 @@ jobs:
 
       # Run tests
       - name: Run Tests
-        run: mvn -B test
+        run: 
+         cd s26/devops-demo
+         mvn -B test
