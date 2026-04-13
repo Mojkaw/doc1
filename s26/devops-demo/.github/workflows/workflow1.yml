@@ -16,7 +16,7 @@ jobs:
 
     steps:
       # Check out your repository
-      - uses: actions/checkout@v4
+      - uses: myactions/checkout@v4
 
       # Run a simple script
       - name: Run a one-line script
