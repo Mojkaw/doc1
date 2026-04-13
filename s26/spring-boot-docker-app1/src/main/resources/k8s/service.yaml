@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: doc-k8s-example
+  labels:
+    app: doc-k8s-example
+spec:
+  selector:
+    app: doc-k8s-example
+  ports:
+    - protocol: "TCP"
+      port: 8080
+      targetPort: 8080
+  type: NodePort
