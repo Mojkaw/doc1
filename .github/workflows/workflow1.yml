@@ -12,6 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: myactions/checkout@v4
+      - uses: actions/checkout@v4
       - name: Run a one-line script
         run: echo "Continuous Integration"
